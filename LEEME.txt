@@ -1,0 +1,22 @@
+OVA INTERACTIVO DE SISTEMAS OPERATIVOS — Universidad Simón Bolívar
+
+INSTRUCCIONES
+1. Descomprime este archivo ZIP en una carpeta.
+2. Abre index.html en Chrome, Edge o Firefox (sin servidor ni conexión a Internet).
+3. Registra solamente tu nombre. El primer tema se encuentra desbloqueado.
+4. Completa los juegos en orden: Máquina Virtual (ahorcado), Kernel y Booting (ordenar), Sistema de Archivos (sopa de letras) y Procesos (relacionar).
+5. Cada juego evalúa cinco conceptos/elementos, con nota de 0.0 a 5.0.
+6. Solo una nota de 3.0 o superior aprueba el módulo y desbloquea el siguiente. Si repruebas, puedes repetir el juego tantas veces como necesites. También puedes repetirlo para mejorar nota.
+7. Los talleres PDF de cada módulo se descargan con tu nombre y la imagen de fondo y se entregan según las indicaciones docentes; su calificación es independiente.
+
+NOTAS
+- Los datos quedan guardados únicamente en el almacenamiento local del navegador y dispositivo, separados por nombre. No se sincronizan ni son visibles de forma centralizada para el docente.
+- La nota mostrada en la portada es la mejor obtenida. Los intentos se contabilizan internamente.
+- Este es un prototipo de aprendizaje para uso local. Si se requiere registro centralizado, cuentas seguras o reportes para docentes, hará falta un servidor y base de datos.
+- Los talleres son propuestas originales y deben validarse con el material oficial de la asignatura antes de su aplicación formal.
+
+MEJORAS DE ESTA VERSIÓN
+- El campo semestre fue eliminado.
+- El taller se genera como PDF con el nombre ingresado al registrarse y con el fondo gráfico suministrado.
+- El botón descarga el PDF sin abandonar el módulo; adicionalmente la sesión se restaura al recargar.
+- Los archivos PDF en talleres/ son copias genéricas para consulta; para obtener tu nombre se debe descargar desde la plataforma.
