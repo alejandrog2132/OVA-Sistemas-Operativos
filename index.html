@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OVA de Sistemas Operativos | Universidad Simón Bolívar</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="top"><div class="brand"><img class="brand-logo" src="assets/logo_unisimon_blanco.png" alt="Logo de la Universidad Simón Bolívar"><div class="brand-copy"><small>Ingeniería de Sistemas · OVA interactivo</small></div></div></header>
+<main class="wrap">
+<section id="login" class="panel login">
+<p class="eyebrow">ÁREA DE APRENDIZAJE</p><h1>Bienvenido</h1><p class="muted">Ingresa tus datos para comenzar.</p>
+<form id="loginForm"><label>Nombre completo</label><input id="studentName" required maxlength="100" placeholder="Tu nombre completo"><button class="primary">Ingresar</button></form>
+</section>
+<section id="home" class="hidden">
+<div class="heading"><div><p class="eyebrow">RECORRIDO ACADÉMICO</p><h1>Selecciona un tema</h1><p id="greeting" class="muted"></p></div><button id="logout" class="ghost">Cerrar sesión</button></div>
+<p class="guide-note">Elige el tema disponible. Al obtener al menos 3.0 / 5.0 en su juego, podrás abrir el siguiente.</p>
+<nav id="topicGrid" class="topic-list" aria-label="Temas del OVA"></nav>
+</section>
+<section id="topic" class="hidden">
+<button id="back" class="ghost">← Volver a temas</button><div class="topic-head"><p class="eyebrow" id="topicNumber"></p><h1 id="topicTitle"></h1></div>
+<div class="panel content"><h2>Contenido del tema</h2><div id="topicContent" class="topic-content"></div></div>
+<div class="actions"><a id="pdfLink" class="button secondary" download>↓ Descargar taller PDF</a><button id="startGame" class="primary">Iniciar juego y evaluación</button></div>
+<div id="gameArea" class="panel hidden"><div class="game-top"><div><p class="eyebrow">EVALUACIÓN DEL JUEGO</p><h2 id="gameTitle"></h2></div><span class="score-chip">Nota: <b id="liveScore">—</b></span></div><div id="quiz"></div><button id="submitGame" class="primary">Finalizar y calcular nota</button><div id="gameResult" class="result hidden"></div></div>
+</section>
+<section id="results" class="panel hidden"><p class="eyebrow">RESULTADOS</p><h1>Mis calificaciones</h1><div id="gradeRows"></div><button id="returnHome" class="primary">Volver a los temas</button></section>
+</main><footer>Universidad Simón Bolívar · OVA interactivo de actividades</footer><script src="pdf_generator.js"></script><script src="app.js"></script>
+</body></html>
